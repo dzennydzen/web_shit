@@ -1,0 +1,122 @@
+body {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: normal;
+
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    padding-top: 60px;
+    padding-bottom: 60px;
+
+    background-color:#e4d7f0
+}
+
+h1, h2 {
+    font-weight: 520;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.avatar {
+    width: 200px; 
+    height: 200px;
+
+    border-radius: 50%;
+}
+
+.avatar:hover {
+    outline: 1px solid rgb(175, 26, 155);
+    outline-offset: 3px;
+}
+
+
+.header {
+    display: flex;
+    
+    justify-content: center;
+    align-items: center;
+}
+
+.header p {
+    font-style: oblique;
+    color: rgb(95, 42, 100);
+    text-decoration: none;
+    line-height: 5px;
+    letter-spacing: 2px;
+
+    padding-left: 15px;
+}
+
+section a {
+    color: black;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: none;
+}
+
+section a:hover {
+    text-decoration: underline;
+    text-decoration-style: solid;
+    text-decoration-color: grey;
+    text-decoration-thickness: 1px;
+
+    color:blueviolet;
+}
+
+.job-table {
+    width: 100%;
+    line-height: 10px;
+}
+
+.job-table td:first-child {
+    color: green;
+    font-weight: 600;
+}
+
+.video-ul-list {
+    list-style: none;
+    padding: 0;
+}
+
+.video-ul-list li {
+    border-bottom: 1px solid grey;
+}
+
+.video-ul-list li:hover {
+    border-bottom-color: #802ece;
+    font-weight: 600;
+    color: #945ec7;
+    cursor: pointer;
+}
+
+
+.ol-list {
+    list-style: none;
+    padding-left: 0;
+}
+
+tr td {
+    padding-right: 15px;
+}
+
+
+.form label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.form input {
+    width: 100%;
+}
+
+textarea, input {
+    font-family: inherit;
+
+    border: none;
+    background-color: #e4d7f0;
+    border-bottom: 1px solid rgb(128, 123, 123);
+
+    outline: none;
+}
